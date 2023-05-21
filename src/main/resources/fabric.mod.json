@@ -10,7 +10,8 @@
   ],
   "contact": {
     "homepage": "https://glass-repo.net/repo/mod/grassblockfix/",
-    "sources": "https://github.com/VendoAU/GrassBlockFix/"
+    "sources": "https://github.com/VendoAU/GrassBlockFix/",
+    "issues": "https://github.com/VendoAU/GrassBlockFix/issues/"
   },
 
   "license": "CC0-1.0",
