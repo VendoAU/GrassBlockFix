@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "grassblockfix",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Grass Block Fix",
+  "description": "Fixes the rendering of grass block items",
   "authors": [
-    "Me!"
+    "VendoAU"
   ],
   "contact": {
-    "homepage": "https://glass-launcher.net/",
-    "sources": "https://github.com/calmilamsy/BIN-fabric-example-mod"
+    "homepage": "https://glass-repo.net/repo/mod/grassblockfix/",
+    "sources": "https://github.com/VendoAU/GrassBlockFix/"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/grassblockfix/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.glasslauncher.example.ExampleMod"
+      "com.vendoau.grassblockfix.GrassBlockFix"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "grassblockfix.mixins.json"
   ],
 
   "depends": {
